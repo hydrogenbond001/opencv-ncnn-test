@@ -2,7 +2,7 @@
 /build/
 /install/
 /chineseocr_lite/
-
+/ncnn/
 opencv-mobile-4.10.0-luckfox-pico.zip
 # 忽略 CMake 生成的缓存文件
 /CMakeCache.txt
