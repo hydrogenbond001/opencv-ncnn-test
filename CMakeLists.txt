@@ -13,7 +13,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 message(STATUS "OpenCV_LIBS=${OpenCV_LIBS}")
 
 # 设置 ncnn 路径
-set(NCNN_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ncnn/build/install/lib/cmake/ncnn")
+set(NCNN_DIR "${CMAKE_CURRENT_SOURCE_DIR}/ncnn_lib/lib/cmake/ncnn")
 find_package(ncnn REQUIRED PATHS ${NCNN_DIR})
 include_directories(${NCNN_INCLUDE_DIRS})
 message(STATUS "NCNN_LIBS=${NCNN_LIBS}")
