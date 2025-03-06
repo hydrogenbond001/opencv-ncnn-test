@@ -36,8 +36,10 @@ chmod 777 ./opencv-ncnn-test
 ./opencv-ncnn-test
 ```
 
-参考大佬[https://www.bilibili.com/video/BV1WhAKeoESP/]的视频
+参考大佬的视频[https://www.bilibili.com/video/BV1WhAKeoESP/]
+
 大佬的链接[https://mp.weixin.qq.com/s/JWgWGavHYSsl7OK_ze6g4w]
+
 chineseocr_lite项目源地址[https://github.com/DayBreak-u/chineseocr_lite.git]
 
 ## 许可证
