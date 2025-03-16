@@ -6,13 +6,16 @@
 #include <net.h>
 #include <fstream>
 #include <numeric>
+#include <stdio.h>
+#include <time.h>
 
 using namespace cv; 
 template<class ForwardIterator>
 inline static size_t argmax(ForwardIterator first, ForwardIterator last) {
     return std::distance(first, std::max_element(first, last));
 }
-
+clock_t start, end;
+    double cpu_time_used;
 
 int main()
 {
@@ -23,6 +26,8 @@ int main()
     ncnn::Net net;
     std::vector<std::string> keys;
 
+
+    start = clock();// 记录开始时间
     Mat src = imread("./model/2.jpg");//default : BGR
    // cv::Mat src;
    // cvtColor(bgrSrc, src, cv::COLOR_BGR2RGB);// convert to RGB 
@@ -104,5 +109,9 @@ int main()
         lastIndex = maxIndex;
     } 
   //  cv::imwrite("out.jpg", bgr);
+    end = clock();    // 记录结束时间
+
+    cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC * 1000;  // 转换为毫秒
+    printf("Function execution time: %.3f ms\n", cpu_time_used);
     return 0;
 }
