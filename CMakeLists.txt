@@ -48,26 +48,6 @@ install(TARGETS opencv-ncnn-test
         ARCHIVE DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/lib
 )
 
-# # 安装 OpenCV 和 ncnn 的库文件
-# install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/opencv_lib/x86_64/lib/
-#         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/lib
-#         FILES_MATCHING PATTERN "*.so*"
-# )
-
-# install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/ncnn_lib/x86_64/lib/
-#         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/lib
-#         FILES_MATCHING PATTERN "*.so*"
-# )
-
-# # 安装头文件（可选）
-# install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/opencv_lib/x86_64/include/
-#         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/include
-# )
-
-# install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/ncnn_lib/x86_64/include/
-#         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/include
-# )
-
 # 安装模型文件
 install(FILES ./model/2.jpg ./model/crnn_lite_op.bin ./model/crnn_lite_op.param ./model/keys.txt
         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/model

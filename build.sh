@@ -54,18 +54,19 @@ make -j$(nproc)
 make install
 
 # 安装库文件
-# echo "安装库文件到 install/lib..."
-# mkdir -p "$BASE_DIR/install/lib"
-# cp -r "$BASE_DIR/opencv_lib/$LIB_DIR/lib/"*.so* "$BASE_DIR/install/lib"
+echo "安装库文件到 install/lib..."
+mkdir -p "$BASE_DIR/install/lib"
+cp -r "$BASE_DIR/opencv_lib/$LIB_ARCH/lib/"*.so* "$BASE_DIR/install/lib"
 # cp -r "$BASE_DIR/ncnn_lib/$LIB_DIR/lib/"*.so* "$BASE_DIR/install/lib"
 
-# # 安装脚本文件
-# echo "安装脚本文件到 install..."
+# 安装脚本文件
+echo "安装脚本文件到 install..."
 # mkdir -p "$BASE_DIR/install"
-# cp "$BASE_DIR/scripts/run_test.sh" "$BASE_DIR/install"
-# chmod +x "$BASE_DIR/install/run_test.sh"
+cp "$BASE_DIR/scripts/run_test.sh" "$BASE_DIR/install"
+chmod +x "$BASE_DIR/install/run_test.sh"
 
-# # 安装模型文件
+chmod +x "$BASE_DIR/install/bin/opencv-ncnn-test
+# 安装模型文件
 # echo "安装模型文件到 install/model..."
 # mkdir -p "$BASE_DIR/install/model"
 # cp "$BASE_DIR/model/"* "$BASE_DIR/install/model"

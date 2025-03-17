@@ -1,0 +1,6 @@
+/home/ph/opencv_ncnn/install/bin/opencv-ncnn-test
+/home/ph/opencv_ncnn/install/model/2.jpg
+/home/ph/opencv_ncnn/install/model/crnn_lite_op.bin
+/home/ph/opencv_ncnn/install/model/crnn_lite_op.param
+/home/ph/opencv_ncnn/install/model/keys.txt
+/home/ph/opencv_ncnn/install/run_test.sh
