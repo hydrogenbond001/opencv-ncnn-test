@@ -1,0 +1,37 @@
+3rdparty/libwebp/CMakeFiles/libwebp.dir/sharpyuv/sharpyuv_gamma.c.o: \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/sharpyuv/sharpyuv_gamma.c \
+ /usr/aarch64-linux-gnu/include/stdc-predef.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/sharpyuv/sharpyuv_gamma.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/sharpyuv/sharpyuv.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/webp/types.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/include/stddef.h \
+ /usr/aarch64-linux-gnu/include/inttypes.h \
+ /usr/aarch64-linux-gnu/include/features.h \
+ /usr/aarch64-linux-gnu/include/sys/cdefs.h \
+ /usr/aarch64-linux-gnu/include/bits/wordsize.h \
+ /usr/aarch64-linux-gnu/include/bits/long-double.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/bits/libc-header-start.h \
+ /usr/aarch64-linux-gnu/include/bits/types.h \
+ /usr/aarch64-linux-gnu/include/bits/timesize.h \
+ /usr/aarch64-linux-gnu/include/bits/typesizes.h \
+ /usr/aarch64-linux-gnu/include/bits/time64.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar.h \
+ /usr/aarch64-linux-gnu/include/bits/stdint-intn.h \
+ /usr/aarch64-linux-gnu/include/bits/stdint-uintn.h \
+ /usr/aarch64-linux-gnu/include/assert.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/include/float.h \
+ /usr/aarch64-linux-gnu/include/math.h \
+ /usr/aarch64-linux-gnu/include/bits/math-vector.h \
+ /usr/aarch64-linux-gnu/include/bits/libm-simd-decl-stubs.h \
+ /usr/aarch64-linux-gnu/include/bits/floatn.h \
+ /usr/aarch64-linux-gnu/include/bits/floatn-common.h \
+ /usr/aarch64-linux-gnu/include/bits/flt-eval-method.h \
+ /usr/aarch64-linux-gnu/include/bits/fp-logb.h \
+ /usr/aarch64-linux-gnu/include/bits/fp-fast.h \
+ /usr/aarch64-linux-gnu/include/bits/mathcalls-helper-functions.h \
+ /usr/aarch64-linux-gnu/include/bits/mathcalls.h \
+ /usr/aarch64-linux-gnu/include/bits/mathinline.h

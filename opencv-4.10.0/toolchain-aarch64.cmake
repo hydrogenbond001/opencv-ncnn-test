@@ -1,0 +1,16 @@
+SET(CMAKE_SYSTEM_NAME Linux)
+SET(CMAKE_SYSTEM_PROCESSOR aarch64)
+
+set(CMAKE_C_COMPILER aarch64-linux-gnu-gcc)
+set(CMAKE_CXX_COMPILER aarch64-linux-gnu-g++)
+
+# 指定 sysroot
+SET(CMAKE_SYSROOT /usr//bin/aarch64-linux-gnu)
+
+# 指定查找路径
+# SET(CMAKE_FIND_ROOT_PATH /usr/aarch64-linux-gnu)
+
+# 确保 CMake 只在 sysroot 内查找
+# SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+# SET(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+# SET(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)

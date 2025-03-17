@@ -1,0 +1,32 @@
+# 忽略构建目录
+/build/
+/install/
+/chineseocr_lite/
+/ncnn/
+*.zip
+# 忽略 CMake 生成的缓存文件
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/Makefile
+
+# 忽略编译生成的可执行文件和库
+/opencv-ncnn-test
+
+# 忽略 IDE 相关文件
+.vscode/
+.idea/
+
+# 忽略临时文件
+*.tmp
+*.bak
+*.swp
+
+# 忽略日志文件
+*.log
+
+# 忽略 macOS 的 .DS_Store 文件
+.DS_Store
+
+# 忽略 Windows 的 Thumbs.db 文件
+Thumbs.db

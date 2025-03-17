@@ -1,0 +1,36 @@
+3rdparty/libwebp/CMakeFiles/libwebp.dir/src/demux/anim_decode.c.o: \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/demux/anim_decode.c \
+ /usr/aarch64-linux-gnu/include/stdc-predef.h \
+ /usr/aarch64-linux-gnu/include/assert.h \
+ /usr/aarch64-linux-gnu/include/features.h \
+ /usr/aarch64-linux-gnu/include/sys/cdefs.h \
+ /usr/aarch64-linux-gnu/include/bits/wordsize.h \
+ /usr/aarch64-linux-gnu/include/bits/long-double.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h \
+ /usr/aarch64-linux-gnu/include/string.h \
+ /usr/aarch64-linux-gnu/include/bits/libc-header-start.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/include/stddef.h \
+ /usr/aarch64-linux-gnu/include/bits/types/locale_t.h \
+ /usr/aarch64-linux-gnu/include/bits/types/__locale_t.h \
+ /usr/aarch64-linux-gnu/include/strings.h \
+ /usr/aarch64-linux-gnu/include/bits/strings_fortified.h \
+ /usr/aarch64-linux-gnu/include/bits/string_fortified.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/utils/utils.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/webp/types.h \
+ /usr/aarch64-linux-gnu/include/inttypes.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/9/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/bits/types.h \
+ /usr/aarch64-linux-gnu/include/bits/timesize.h \
+ /usr/aarch64-linux-gnu/include/bits/typesizes.h \
+ /usr/aarch64-linux-gnu/include/bits/time64.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar.h \
+ /usr/aarch64-linux-gnu/include/bits/stdint-intn.h \
+ /usr/aarch64-linux-gnu/include/bits/stdint-uintn.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/webp/decode.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/webp/./types.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/webp/demux.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/webp/./decode.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/webp/./mux_types.h \
+ /home/ph/opencv_ncnn/opencv-4.10.0/3rdparty/libwebp/src/webp/././types.h
