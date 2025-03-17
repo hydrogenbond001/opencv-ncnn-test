@@ -21,10 +21,8 @@
 ```bash
 git clone https://github.com/hydrogenbond001/opencv-ncnn-test.git
 cd opencv-ncnn-test
-mkdir build
-cd build
-cmake ..
-make install
+./build.sh
+选择架构
 
 ```
 adb推到板端
@@ -32,8 +30,8 @@ adb推到板端
 adb push install/ /
 adb shell
 cd /install
-chmod 777 ./opencv-ncnn-test
-./opencv-ncnn-test
+chmod 777 ./bin/opencv-ncnn-test
+./run_test.sh
 ```
 
 参考大佬的视频[https://www.bilibili.com/video/BV1WhAKeoESP/]
