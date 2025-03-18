@@ -1,5 +1,5 @@
 # 忽略构建目录
-/build/
+/build_*/
 /install/
 /chineseocr_lite/
 /ncnn/
