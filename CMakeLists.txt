@@ -49,7 +49,7 @@ install(TARGETS opencv-ncnn-test
 )
 
 # 安装模型文件
-install(FILES ./model/2.jpg ./model/crnn_lite_op.bin ./model/crnn_lite_op.param ./model/keys.txt
+install(FILES ./model/2.jpg ./model/3.jpg ./model/crnn_lite_op.bin ./model/crnn_lite_op.param ./model/keys.txt
         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/model
 )
 

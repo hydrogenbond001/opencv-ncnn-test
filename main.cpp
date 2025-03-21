@@ -28,7 +28,7 @@ int main()
 
 
     start = clock();// 记录开始时间
-    Mat src = imread("./model/2.jpg");//default : BGR
+    Mat src = imread("./model/3.jpg");//default : BGR
    // cv::Mat src;
    // cvtColor(bgrSrc, src, cv::COLOR_BGR2RGB);// convert to RGB 
 

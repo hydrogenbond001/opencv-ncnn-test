@@ -65,7 +65,6 @@ echo "安装脚本文件到 install..."
 cp "$BASE_DIR/scripts/run_test.sh" "$BASE_DIR/install"
 chmod +x "$BASE_DIR/install/run_test.sh"
 
-chmod +x "$BASE_DIR/install/bin/opencv-ncnn-test
 # 安装模型文件
 # echo "安装模型文件到 install/model..."
 # mkdir -p "$BASE_DIR/install/model"
