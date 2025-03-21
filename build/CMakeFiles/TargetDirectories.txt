@@ -1,0 +1,7 @@
+/home/ph/opencv_ncnn/build/CMakeFiles/opencv-ncnn-test.dir
+/home/ph/opencv_ncnn/build/CMakeFiles/edit_cache.dir
+/home/ph/opencv_ncnn/build/CMakeFiles/rebuild_cache.dir
+/home/ph/opencv_ncnn/build/CMakeFiles/list_install_components.dir
+/home/ph/opencv_ncnn/build/CMakeFiles/install.dir
+/home/ph/opencv_ncnn/build/CMakeFiles/install/local.dir
+/home/ph/opencv_ncnn/build/CMakeFiles/install/strip.dir

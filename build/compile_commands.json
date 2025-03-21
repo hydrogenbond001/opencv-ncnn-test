@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/ph/opencv_ncnn/build",
+  "command": "/usr/bin/c++  -isystem /home/ph/opencv_ncnn/opencv_lib/x86_64/include/opencv4 -isystem /home/ph/opencv_ncnn/ncnn_lib/x86_64/include/ncnn -g -std=gnu++17 -fPIE -fopenmp -pthread -o CMakeFiles/opencv-ncnn-test.dir/main.cpp.o -c /home/ph/opencv_ncnn/main.cpp",
+  "file": "/home/ph/opencv_ncnn/main.cpp",
+  "output": "CMakeFiles/opencv-ncnn-test.dir/main.cpp.o"
+}
+]
