@@ -1,8 +1,9 @@
 # 忽略构建目录
-/build_*/
+/build*/
 /install/
 /chineseocr_lite/
 /ncnn/
+/opencv-*/
 *.zip
 # 忽略 CMake 生成的缓存文件
 /CMakeCache.txt

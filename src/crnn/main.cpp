@@ -15,7 +15,7 @@ inline static size_t argmax(ForwardIterator first, ForwardIterator last) {
     return std::distance(first, std::max_element(first, last));
 }
 clock_t start, end;
-    double cpu_time_used;
+double cpu_time_used;
 
 int main()
 {

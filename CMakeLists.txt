@@ -34,22 +34,26 @@ find_package(OpenCV REQUIRED)
 find_package(ncnn REQUIRED)
 
 # 添加源码
-add_executable(opencv-ncnn-test main.cpp)
+# add_executable(opencv-ncnn-test src/crnn/main.cpp)
 
-# 链接 OpenCV 和 NCNN
-target_include_directories(opencv-ncnn-test PRIVATE ${OpenCV_INCLUDE_DIRS} ${ncnn_INCLUDE_DIRS})
-target_link_libraries(opencv-ncnn-test PRIVATE ${OpenCV_LIBS} ncnn)
+# # 链接 OpenCV 和 NCNN
+# target_include_directories(opencv-ncnn-test PRIVATE ${OpenCV_INCLUDE_DIRS} ${ncnn_INCLUDE_DIRS})
+# target_link_libraries(opencv-ncnn-test PRIVATE ${OpenCV_LIBS} ncnn)
+
+
+add_subdirectory(src/crnn)
+add_subdirectory(src/dbnet)
 
 
 # 设置安装规则
-install(TARGETS opencv-ncnn-test
+install(TARGETS opencv-ncnn-test opencv-dbnet-test
         RUNTIME DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/bin
         LIBRARY DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/lib
         ARCHIVE DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/lib
 )
 
 # 安装模型文件
-install(FILES ./model/2.jpg ./model/3.jpg ./model/crnn_lite_op.bin ./model/crnn_lite_op.param ./model/keys.txt
+install(FILES ./model/2.jpg ./model/3.jpg ./model/crnn_lite_op.bin ./model/crnn_lite_op.param ./model/dbnet_op.bin ./model/dbnet_op.param ./model/keys.txt
         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/model
 )
 
