@@ -14,6 +14,18 @@ If you want to use single thread for only some layer, see https://github.com/Ten
 - 使用 OpenCV 读取图像。
 - 使用 NCNN 加载模型并进行推理。
 
+## 效果展示
+幸狐LuckFox Pico Ultra W上(rv1106)
+![幸狐rv1106上效果](https://github.com/hydrogenbond001/opencv-ncnn-test/scripts/001.jpg)
+
+正点原子CA1上(rk3568)
+![正点原子CA1上](https://github.com/hydrogenbond001/opencv-ncnn-test/scripts/002.jpg)
+
+x86_linux上(WSL)
+![x86_linux上](https://github.com/hydrogenbond001/opencv-ncnn-test/scripts/003.jpg)
+
+
+
 ## 依赖项
 
 - **OpenCV**: 用于图像处理。
@@ -29,8 +41,20 @@ git clone https://github.com/hydrogenbond001/opencv-ncnn-test.git
 cd opencv-ncnn-test
 ./build.sh
 选择架构
+```
+```
+@user:/$ ./build.sh 
+请选择编译方式：
+1. x86_64 架构
+2. aarch64 架构
+3. 交叉编译 (x86_64 到 aarch64)
+4. 交叉编译 (x86_64 到 arm-rockchip830-linux-uclibcgnueabihf)
+7. 清理构建目录
+请输入选项 (1/2/3/4/7): 
+@user:/$ 1
 
 ```
+
 adb推到板端
 ```
 adb push install/ /
