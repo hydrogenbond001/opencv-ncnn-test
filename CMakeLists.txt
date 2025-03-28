@@ -33,6 +33,18 @@ message(STATUS "ncnn_DIR: ${ncnn_DIR}")
 find_package(OpenCV REQUIRED)
 find_package(ncnn REQUIRED)
 
+
+
+file(GLOB_RECURSE SRC_FILES ${CMAKE_SOURCE_DIR}/src/dbnet/*.cpp)
+# 创建 dbnet 的目标
+add_executable(opencv-dbnet-test src/dbnet/dbnet.cpp ${SRC_FILES} )
+target_include_directories(opencv-dbnet-test PRIVATE ${CMAKE_SOURCE_DIR}/include)
+target_link_libraries(opencv-dbnet-test ${OpenCV_LIBS} ncnn)
+
+# 创建 crnn 的目标
+add_executable(opencv-ncnn-test src/crnn/main.cpp)
+target_link_libraries(opencv-ncnn-test ${OpenCV_LIBS} ncnn)
+
 # 添加源码
 # add_executable(opencv-ncnn-test src/crnn/main.cpp)
 
@@ -41,8 +53,8 @@ find_package(ncnn REQUIRED)
 # target_link_libraries(opencv-ncnn-test PRIVATE ${OpenCV_LIBS} ncnn)
 
 
-add_subdirectory(src/crnn)
-add_subdirectory(src/dbnet)
+# add_subdirectory(src/crnn)
+# add_subdirectory(src/dbnet)
 
 
 # 设置安装规则
@@ -53,8 +65,8 @@ install(TARGETS opencv-ncnn-test opencv-dbnet-test
 )
 
 # 安装模型文件
-install(FILES ./model/2.jpg ./model/3.jpg ./model/crnn_lite_op.bin ./model/crnn_lite_op.param ./model/dbnet_op.bin ./model/dbnet_op.param ./model/keys.txt
-        DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/model
+install(FILES ./models/2.jpg ./models/3.jpg ./models/angle_op.bin ./models/angle_op.param ./models/crnn_lite_op.bin ./models/crnn_lite_op.param ./models/dbnet_op.bin ./models/dbnet_op.param ./models/keys.txt
+        DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/models
 )
 
 # 安装脚本文件

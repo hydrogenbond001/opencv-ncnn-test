@@ -1,6 +1,12 @@
 # OpenCV 和 NCNN 测试项目
 
 这是一个基于 OpenCV 和 NCNN 的测试项目，用于在 Luckfox Pico 开发板上运行图像处理和神经网络推理。
+tips:ncnn会有一下报错，很烦但不影响结果
+```
+ex.set_num_threads() is no-op, please set net.opt.num_threads=N before net.load_param()
+If you want to use single thread for only some layer, see https://github.com/Tencent/ncnn/wiki/layer-feat-mask
+```
+注释ncnn/src/net.cpp里的void Extractor::set_num_threads(int num_threads)函数内容，就不会输出了
 
 ## 项目简介
 

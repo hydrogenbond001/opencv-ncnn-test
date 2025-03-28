@@ -28,17 +28,17 @@ int main()
 
 
     start = clock();// 记录开始时间
-    Mat src = imread("./model/3.jpg");//default : BGR
+    Mat src = imread("./models/3.jpg");//default : BGR
    // cv::Mat src;
    // cvtColor(bgrSrc, src, cv::COLOR_BGR2RGB);// convert to RGB 
 
 
 
     // Step 2: 加载 .param 和 .bin 文件
-    net.load_param("./model/crnn_lite_op.param");
-    net.load_model("./model/crnn_lite_op.bin");
+    net.load_param("./models/crnn_lite_op.param");
+    net.load_model("./models/crnn_lite_op.bin");
 
-    std::ifstream in("./model/keys.txt");
+    std::ifstream in("./models/keys.txt");
     std::string line;
     if (in) {
         while (getline(in, line)) {// line中不包括每行的换行符
