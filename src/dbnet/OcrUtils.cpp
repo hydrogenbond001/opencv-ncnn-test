@@ -1,5 +1,5 @@
 #include <opencv2/imgproc.hpp>
-#include <opencv2/imgcodecs.hpp>
+// #include <opencv2/imgcodecs.hpp>
 #include "OcrUtils.h"
 #include "clipper.hpp"
 #include "net.h"
@@ -311,7 +311,7 @@ std::vector<int> getAngleIndexes(std::vector<Angle> &angles) {
 }
 
 void saveImg(cv::Mat &img, const char *imgPath) {
-    cv::imwrite(imgPath, img);
+    // cv::imwrite(imgPath, img);
 }
 
 std::string getSrcImgFilePath(const char *path, const char *imgName) {

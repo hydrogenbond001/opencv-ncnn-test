@@ -4,7 +4,9 @@
 /chineseocr_lite/
 /ncnn/
 /opencv-*/
+/Project_OcrLiteNcnn-1.8.1/
 *.zip
+*.7z
 # 忽略 CMake 生成的缓存文件
 /CMakeCache.txt
 /CMakeFiles/
