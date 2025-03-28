@@ -6,7 +6,7 @@ tips:ncnn会有一下报错，很烦但不影响结果
 ex.set_num_threads() is no-op, please set net.opt.num_threads=N before net.load_param()
 If you want to use single thread for only some layer, see https://github.com/Tencent/ncnn/wiki/layer-feat-mask
 ```
-注释ncnn/src/net.cpp里的void Extractor::set_num_threads(int num_threads)函数内容，就不会输出了
+注释ncnn/src/net.cpp里的void Extractor::set_num_threads(int num_threads)函数内容，就不会输出了,我编译ncnn时已经注释了
 
 ## 项目简介
 
