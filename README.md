@@ -16,13 +16,13 @@ If you want to use single thread for only some layer, see https://github.com/Ten
 
 ## 效果展示
 幸狐LuckFox Pico Ultra W上(rv1106)
-![幸狐rv1106上效果](https://github.com/hydrogenbond001/opencv-ncnn-test/scripts/001.jpg)
+![幸狐rv1106上效果](./scripts/001.jpg)
 
 正点原子CA1上(rk3568)
-![正点原子CA1上](https://github.com/hydrogenbond001/opencv-ncnn-test/scripts/002.jpg)
+![正点原子CA1上](./scripts/002.jpg)
 
 x86_linux上(WSL)
-![x86_linux上](https://github.com/hydrogenbond001/opencv-ncnn-test/scripts/003.jpg)
+![x86_linux上](./scripts/003.jpg)
 
 
 
