@@ -65,12 +65,12 @@ install(TARGETS opencv-ncnn-test opencv-dbnet-test
 )
 
 # 安装模型文件
-install(FILES ./models/2.jpg ./models/3.jpg ./models/angle_op.bin ./models/angle_op.param ./models/crnn_lite_op.bin ./models/crnn_lite_op.param ./models/dbnet_op.bin ./models/dbnet_op.param ./models/keys.txt
+install(FILES ./models/test.jpg ./models/3.jpg ./models/angle_op.bin ./models/angle_op.param ./models/crnn_lite_op.bin ./models/crnn_lite_op.param ./models/dbnet_op.bin ./models/dbnet_op.param ./models/keys.txt
         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/models
 )
 
 # 安装脚本文件
-install(FILES scripts/run_test.sh
-        DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install
-        PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
-)
+# install(FILES scripts/run_test.sh
+#         DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install
+#         PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
+# )

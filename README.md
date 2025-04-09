@@ -21,6 +21,9 @@ If you want to use single thread for only some layer, see https://github.com/Ten
 正点原子CA1上(rk3568)
 ![正点原子CA1上](./scripts/002.jpg)
 
+泰山派上(rk3566)对比rknn模型
+![泰山派上](./scripts/004.png)
+
 x86_linux上(WSL)
 ![x86_linux上](./scripts/003.jpg)
 

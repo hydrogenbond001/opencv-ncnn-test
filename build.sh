@@ -56,8 +56,9 @@ make install
 # 安装库文件
 echo "安装库文件到 install/lib..."
 mkdir -p "$BASE_DIR/install/lib"
-cp -r "$BASE_DIR/opencv_lib/$LIB_ARCH/lib/"*.so* "$BASE_DIR/install/lib"
-# cp -r "$BASE_DIR/ncnn_lib/$LIB_DIR/lib/"*.so* "$BASE_DIR/install/lib"
+cp -r "$BASE_DIR/opencv_lib/$LIB_ARCH/lib/"libopencv_imgcodecs.so.410 "$BASE_DIR/install/lib"
+cp -r "$BASE_DIR/opencv_lib/$LIB_ARCH/lib/"libopencv_imgproc.so.410 "$BASE_DIR/install/lib"
+cp -r "$BASE_DIR/opencv_lib/$LIB_ARCH/lib/"libopencv_core.so.410 "$BASE_DIR/install/lib"
 
 # 安装脚本文件
 echo "安装脚本文件到 install..."
